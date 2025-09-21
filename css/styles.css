@@ -1,0 +1,158 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul, 
+li {
+  list-style: none;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-studio {
+    color: #2e2f42;
+}
+
+.menu-item {
+    color:  #2e2f42;
+    font-weight: 500;
+}
+
+.menu-item:hover,
+.menu-item:focus {
+    color: #404bbf;
+}
+
+.link:hover,
+.link:focus {
+    color: #4D5AE5;
+}
+
+.address {
+    font-style: normal;
+}
+
+.contact:hover,
+.contact:focus {
+    color: #404BBF;
+}
+
+.header-large, .title {
+    font-size: 56px;
+    line-height: 60px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.header-medium {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.header-small {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.small-text, link {
+    color: #F4F4FD;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.button {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.medium-text {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    background-color:  #4D5AE5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.button:hover, .button:focus {
+    cursor: pointer;
+    background-color: #404BBF;
+}
+
+.order-service-section {
+    background-color: #2e2f42;
+}
+
+.order-service-title {
+    line-height: 1.07;
+    text-align: center;
+    color: #ffffff;
+}
+
+.benefits-title {
+    color: #2e2f42;
+}
+
+.benefit-title {
+    color: #2e2f42;
+}
+
+.our-team-section {
+    background-color: #F4F4FD;
+}
+
+.our-team-title {
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.teammate-wrapper {
+    background-color: #FFFFFF;
+}
+
+.teammate {
+    color: #2e2f42;
+}
+
+.portfolio-title {
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.portfolio-item {
+    color: #2e2f42;
+}
+.footer {
+    background-color: #2e2f42;
+}
+.logo-studio-second {
+    color: #f4f4fd;
+}
