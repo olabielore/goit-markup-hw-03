@@ -39,6 +39,8 @@ h1, h2, h3, h4, h5, h6, p {
 .menu-item {
     color:  #2e2f42;
     font-weight: 500;
+    padding: 24px 0;
+    display: inline-flex
 }
 
 .menu-item:hover,
@@ -53,6 +55,11 @@ h1, h2, h3, h4, h5, h6, p {
 
 .address {
     font-style: normal;
+}
+
+.contact {
+    display: inline-flex;
+    padding: 24px 0;
 }
 
 .contact:hover,
@@ -96,7 +103,6 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
-    text-align: center;
 }
 
 .button {
@@ -142,7 +148,6 @@ h1, h2, h3, h4, h5, h6, p {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
-    padding: 32px 0;
 }
 
 .teammate-wrapper {
@@ -163,8 +168,7 @@ h1, h2, h3, h4, h5, h6, p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 8px;
-    margin: 32px 16px;
+    padding: 32px 0;
     border-radius: 0 0 4px 4px;
 }
 
@@ -190,7 +194,6 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 120px;
     row-gap: 48px;
     column-gap: 24px;
 }
@@ -206,11 +209,6 @@ h1, h2, h3, h4, h5, h6, p {
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
     padding: 32px 16px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    gap: 8px;
 }
 
 .app-item .portfolio-item {
@@ -223,6 +221,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .logo-studio-second {
@@ -260,9 +259,7 @@ img {
    margin-right: 156px;
 }
                  
-.container-portfolio {
-    padding-top: 120px;
-}
+.container-portfolio {}
 
 .header-container {
     display: flex;
@@ -285,10 +282,6 @@ img {
 .nav-items:last-child {
     display: flex;
     gap: 40px;
-}
-
-.nav-item, .address-item {
-    padding: 24px 0 24px
 }
 
 .address-title {
@@ -340,13 +333,15 @@ img {
 .container-footer {
     width: 1440px;
     height: 312px;
-    padding-top: 100px;
 }
 
 .footer-paragraph {
     width: 264px;
     height: 112px;
-    padding-top: 16px;
+}
+
+.logo-footer {
+    margin-bottom: 16px; 
 }
 
 .visually-hidden {
