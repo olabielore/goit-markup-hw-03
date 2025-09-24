@@ -223,8 +223,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 .footer {
     background-color: #2e2f42;
-    padding: 100px 0;
 }
+
 .logo-studio-second {
     color: #f4f4fd;
 }
@@ -267,15 +267,13 @@ img {
 .header-container {
     display: flex;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
     width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px
 }
 
 .header-box {
-  border-bottom: 1px solid #E7E9FC;
-  padding: 0 15px;
-  margin: 0 auto;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .navigation {
@@ -284,10 +282,15 @@ img {
     justify-content: center;
 }
 
-.list-item:last-child {
+.nav-items:last-child {
     display: flex;
     gap: 40px;
 }
+
+.nav-item, .address-item {
+    padding: 24px 0 24px
+}
+
 .address-title {
     display: flex;
     gap: 40px;
