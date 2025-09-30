@@ -87,8 +87,10 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .small-text, link {
+    font-family: "Roboto", sans-serif;
     color: #F4F4FD;
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -160,10 +162,10 @@ h1, h2, h3, h4, h5, h6, p {
 .teammate {
     color: #2e2f42;
     text-align: center;
-    margin-bottom: 8px;
 }
 
 .team-card {
+    gap: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -256,8 +258,9 @@ img {
 .container { 
    padding-left: 15px;
    padding-right: 15px;
-   margin-left: 156px;
-   margin-right: 156px;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 1158px;
 }
                  
 .container-portfolio {}
@@ -265,9 +268,6 @@ img {
 .header-container {
     display: flex;
     justify-content: space-between;
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px
 }
 
 .header-box {
@@ -333,12 +333,10 @@ img {
 
 .container-footer {
     width: 1440px;
-    height: 312px;
 }
 
 .footer-paragraph {
     width: 264px;
-    height: 112px;
 }
 
 .logo-footer {
