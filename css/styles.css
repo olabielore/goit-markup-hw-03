@@ -162,10 +162,10 @@ h1, h2, h3, h4, h5, h6, p {
 .teammate {
     color: #2e2f42;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-card {
-    gap: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
